@@ -28,10 +28,10 @@ export class UserAddressCardComponent {
   closeAddressModal() { this.isAddressModalOpen = false; }
 
   address = {
-    country: 'United States',
-    cityState: 'Arizona, United States.',
-    postalCode: 'ERT 2489',
-    taxId: 'AS4568384',
+    country: 'Iran',
+    cityState: 'Tehran, Iran',
+    postalCode: '1234567890',
+    taxId: 'DK-204518',
   };
 
   handleAddressSave() {

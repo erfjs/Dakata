@@ -33,7 +33,7 @@ export class InvoiceListComponent {
     {
       id: 1,
       number: "#323534",
-      customer: "Lindsey Curtis",
+      customer: "Sara Ahmadi",
       creationDate: "August 7, 2028",
       dueDate: "February 28, 2028",
       total: 999,
@@ -78,7 +78,7 @@ export class InvoiceListComponent {
     {
       id: 6,
       number: "#323539",
-      customer: "Chris Wilson",
+      customer: "Arash Bagheri",
       creationDate: "March 1, 2028",
       dueDate: "September 1, 2028",
       total: 1100,
@@ -177,7 +177,7 @@ export class InvoiceListComponent {
     {
       id: 17,
       number: "#323550",
-      customer: "Mia Wright",
+      customer: "Elham Jafari",
       creationDate: "April 20, 2027",
       dueDate: "October 20, 2027",
       total: 980,

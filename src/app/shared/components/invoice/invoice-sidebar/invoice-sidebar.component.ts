@@ -13,7 +13,7 @@ export class InvoiceSidebarComponent {
 
   users = [
     {
-      name: 'Zain Geidt',
+      name: 'Hamed Rostami',
       id: '#348',
       image: './images/user/user-19.jpg',
       active: true,
@@ -24,7 +24,7 @@ export class InvoiceSidebarComponent {
       image: './images/user/user-17.jpg',
     },
     {
-      name: 'Abram Schleifer',
+      name: 'Neda Karimi',
       id: '#289',
       image: './images/user/user-20.jpg',
     },

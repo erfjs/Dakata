@@ -26,16 +26,16 @@ export class UserInfoCardComponent {
   closeModal() { this.isOpen = false; }
 
   user = {
-    firstName: 'Musharof',
-    lastName: 'Chowdhury',
-    email: 'randomuser@pimjo.com',
-    phone: '+09 363 398 46',
-    bio: 'Team Manager',
+    firstName: 'Nima',
+    lastName: 'Rahimi',
+    email: 'nima.rahimi@example.com',
+    phone: '+98 21 5555 0142',
+    bio: 'Operations Manager',
     social: {
-      facebook: 'https://www.facebook.com/PimjoHQ',
-      x: 'https://x.com/PimjoHQ',
-      linkedin: 'https://www.linkedin.com/company/pimjo',
-      instagram: 'https://instagram.com/PimjoHQ',
+      facebook: '#',
+      x: '#',
+      linkedin: '#',
+      instagram: '#',
     },
   };
 

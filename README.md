@@ -28,7 +28,3 @@ Then open `http://localhost:4200`.
 ## Deployment
 
 The project ships with a `wrangler.jsonc` for Cloudflare. After `npm run build`, the static files are served from `dist/dakata/browser` with single-page-application fallback.
-
-## Credits
-
-Dakata is based on [TailAdmin Angular Free](https://github.com/TailAdmin/free-angular-tailwind-dashboard), released under the MIT License. See `LICENSE.md`.

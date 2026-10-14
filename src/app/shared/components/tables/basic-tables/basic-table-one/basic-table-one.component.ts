@@ -17,7 +17,7 @@ export class BasicTableOneComponent {
       id: 1,
       user: {
         image: '/images/user/user-17.jpg',
-        name: 'Lindsey Curtis',
+        name: 'Sara Ahmadi',
         role: 'Web Designer',
       },
       projectName: 'Agency Website',
@@ -35,7 +35,7 @@ export class BasicTableOneComponent {
       id: 2,
       user: {
         image: '/images/user/user-18.jpg',
-        name: 'Kaiya George',
+        name: 'Reza Mousavi',
         role: 'Project Manager',
       },
       projectName: 'Technology',
@@ -49,7 +49,7 @@ export class BasicTableOneComponent {
       id: 3,
       user: {
         image: '/images/user/user-17.jpg',
-        name: 'Zain Geidt',
+        name: 'Hamed Rostami',
         role: 'Content Writing',
       },
       projectName: 'Blog Writing',
@@ -63,7 +63,7 @@ export class BasicTableOneComponent {
       id: 4,
       user: {
         image: '/images/user/user-20.jpg',
-        name: 'Abram Schleifer',
+        name: 'Neda Karimi',
         role: 'Digital Marketer',
       },
       projectName: 'Social Media',

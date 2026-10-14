@@ -37,7 +37,7 @@ export class TransactionListComponent {
     {
       id: 1,
       orderId: '#323534',
-      customer: 'Lindsey Curtis',
+      customer: 'Sara Ahmadi',
       email: 'lindsey@example.com',
       amount: 699,
       amountDisplay: '$699',
@@ -47,7 +47,7 @@ export class TransactionListComponent {
     {
       id: 2,
       orderId: '#323535',
-      customer: 'Kaiya George',
+      customer: 'Reza Mousavi',
       email: 'kaiya@example.com',
       amount: 1579,
       amountDisplay: '$1,579',
@@ -57,7 +57,7 @@ export class TransactionListComponent {
     {
       id: 3,
       orderId: '#323536',
-      customer: 'Zain Geidt',
+      customer: 'Hamed Rostami',
       email: 'zain787@example.com',
       amount: 1039,
       amountDisplay: '$1,039',
@@ -67,7 +67,7 @@ export class TransactionListComponent {
     {
       id: 4,
       orderId: '#323537',
-      customer: 'Abram Schleifer',
+      customer: 'Neda Karimi',
       email: 'abram@example.com',
       amount: 43999,
       amountDisplay: '$43,999',
@@ -97,7 +97,7 @@ export class TransactionListComponent {
     {
       id: 7,
       orderId: '#323540',
-      customer: 'Livia Donin',
+      customer: 'Parisa Naderi',
       email: 'livia343@example.com',
       amount: 1769,
       amountDisplay: '$1,769',
@@ -157,7 +157,7 @@ export class TransactionListComponent {
     {
       id: 13,
       orderId: '#323546',
-      customer: 'Mia Chen',
+      customer: 'Omid Farhadi',
       email: 'mia.chen@example.com',
       amount: 3200,
       amountDisplay: '$3,200',
@@ -197,7 +197,7 @@ export class TransactionListComponent {
     {
       id: 17,
       orderId: '#323550',
-      customer: 'Olivia Wilson',
+      customer: 'Maryam Sadeghi',
       email: 'olivia.wilson@example.com',
       amount: 1750,
       amountDisplay: '$1,750',

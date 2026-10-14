@@ -19,7 +19,7 @@ export class BasicTableFourComponent {
       id: 1,
       creator: {
         image: '/images/user/user-01.jpg',
-        name: 'Wilson Gouse',
+        name: 'Kian Tehrani',
       },
       campaign: {
         image: '/images/brand/brand-01.svg',
@@ -32,7 +32,7 @@ export class BasicTableFourComponent {
       id: 2,
       creator: {
         image: '/images/user/user-02.jpg',
-        name: 'Wilson Gouse',
+        name: 'Kian Tehrani',
       },
       campaign: {
         image: '/images/brand/brand-02.svg',
@@ -45,7 +45,7 @@ export class BasicTableFourComponent {
       id: 3,
       creator: {
         image: '/images/user/user-03.jpg',
-        name: 'Wilson Gouse',
+        name: 'Kian Tehrani',
       },
       campaign: {
         image: '/images/brand/brand-03.svg',
@@ -58,7 +58,7 @@ export class BasicTableFourComponent {
       id: 4,
       creator: {
         image: '/images/user/user-04.jpg',
-        name: 'Wilson Gouse',
+        name: 'Kian Tehrani',
       },
       campaign: {
         image: '/images/brand/brand-04.svg',
@@ -71,7 +71,7 @@ export class BasicTableFourComponent {
       id: 5,
       creator: {
         image: '/images/user/user-05.jpg',
-        name: 'Wilson Gouse',
+        name: 'Kian Tehrani',
       },
       campaign: {
         image: '/images/brand/brand-05.svg',
@@ -84,7 +84,7 @@ export class BasicTableFourComponent {
       id: 6,
       creator: {
         image: '/images/user/user-06.jpg',
-        name: 'Wilson Gouse',
+        name: 'Kian Tehrani',
       },
       campaign: {
         image: '/images/brand/brand-06.svg',

@@ -18,6 +18,7 @@ import { VideosComponent } from './pages/ui-elements/videos/videos.component';
 import { SignInComponent } from './pages/auth-pages/sign-in/sign-in.component';
 import { SignUpComponent } from './pages/auth-pages/sign-up/sign-up.component';
 import { ResetPasswordComponent } from './pages/auth-pages/reset-password/reset-password.component';
+import { PlaceholderComponent } from './pages/placeholder/placeholder.component';
 import { CalenderComponent } from './pages/calender/calender.component';
 
 export const routes: Routes = [
@@ -30,78 +31,138 @@ export const routes: Routes = [
         component: EcommerceComponent,
         pathMatch: 'full',
         title:
-          'Angular Ecommerce Dashboard | Dakata',
+          'Dashboard | Dakata',
+      },
+      {
+        path:'shipments',
+        component:PlaceholderComponent,
+        data:{ heading:'Shipments' },
+        title:'Shipments | Dakata'
+      },
+      {
+        path:'orders',
+        component:PlaceholderComponent,
+        data:{ heading:'Orders' },
+        title:'Orders | Dakata'
+      },
+      {
+        path:'tracking',
+        component:PlaceholderComponent,
+        data:{ heading:'Live Tracking' },
+        title:'Live Tracking | Dakata'
+      },
+      {
+        path:'vehicles',
+        component:PlaceholderComponent,
+        data:{ heading:'Vehicles' },
+        title:'Vehicles | Dakata'
+      },
+      {
+        path:'drivers',
+        component:PlaceholderComponent,
+        data:{ heading:'Drivers' },
+        title:'Drivers | Dakata'
+      },
+      {
+        path:'maintenance',
+        component:PlaceholderComponent,
+        data:{ heading:'Maintenance' },
+        title:'Maintenance | Dakata'
+      },
+      {
+        path:'warehouses',
+        component:PlaceholderComponent,
+        data:{ heading:'Warehouses' },
+        title:'Warehouses | Dakata'
+      },
+      {
+        path:'inventory',
+        component:PlaceholderComponent,
+        data:{ heading:'Inventory' },
+        title:'Inventory | Dakata'
+      },
+      {
+        path:'customers',
+        component:PlaceholderComponent,
+        data:{ heading:'Customers' },
+        title:'Customers | Dakata'
+      },
+      {
+        path:'settings',
+        component:PlaceholderComponent,
+        data:{ heading:'Settings' },
+        title:'Settings | Dakata'
       },
       {
         path:'calendar',
         component:CalenderComponent,
-        title:'Angular Calender | Dakata'
+        title:'Schedule | Dakata'
       },
       {
         path:'profile',
         component:ProfileComponent,
-        title:'Angular Profile Dashboard | Dakata'
+        title:'Profile | Dakata'
       },
       {
         path:'form-elements',
         component:FormElementsComponent,
-        title:'Angular Form Elements Dashboard | Dakata'
+        title:'Form Elements | Dakata'
       },
       {
         path:'basic-tables',
         component:BasicTablesComponent,
-        title:'Angular Basic Tables Dashboard | Dakata'
+        title:'Basic Tables | Dakata'
       },
       {
         path:'blank',
         component:BlankComponent,
-        title:'Angular Blank Dashboard | Dakata'
+        title:'Blank | Dakata'
       },
       // support tickets
       {
         path:'invoice',
         component:InvoicesComponent,
-        title:'Angular Invoice Details Dashboard | Dakata'
+        title:'Invoice Details | Dakata'
       },
       {
         path:'line-chart',
         component:LineChartComponent,
-        title:'Angular Line Chart Dashboard | Dakata'
+        title:'Line Chart | Dakata'
       },
       {
         path:'bar-chart',
         component:BarChartComponent,
-        title:'Angular Bar Chart Dashboard | Dakata'
+        title:'Bar Chart | Dakata'
       },
       {
         path:'alerts',
         component:AlertsComponent,
-        title:'Angular Alerts Dashboard | Dakata'
+        title:'Alerts | Dakata'
       },
       {
         path:'avatars',
         component:AvatarElementComponent,
-        title:'Angular Avatars Dashboard | Dakata'
+        title:'Avatars | Dakata'
       },
       {
         path:'badge',
         component:BadgesComponent,
-        title:'Angular Badges Dashboard | Dakata'
+        title:'Badges | Dakata'
       },
       {
         path:'buttons',
         component:ButtonsComponent,
-        title:'Angular Buttons Dashboard | Dakata'
+        title:'Buttons | Dakata'
       },
       {
         path:'images',
         component:ImagesComponent,
-        title:'Angular Images Dashboard | Dakata'
+        title:'Images | Dakata'
       },
       {
         path:'videos',
         component:VideosComponent,
-        title:'Angular Videos Dashboard | Dakata'
+        title:'Videos | Dakata'
       },
     ]
   },
@@ -109,27 +170,27 @@ export const routes: Routes = [
   {
     path:'signin',
     component:SignInComponent,
-    title:'Angular Sign In Dashboard | Dakata'
+    title:'Sign In | Dakata'
   },
   {
     path:'signup',
     component:SignUpComponent,
-    title:'Angular Sign Up Dashboard | Dakata'
+    title:'Sign Up | Dakata'
   },
   {
     path:'reset-password',
     component:ResetPasswordComponent,
-    title:'Angular Reset Password Dashboard | Dakata'
+    title:'Reset Password | Dakata'
   },
   // error pages
   {
     path:'error-404',
     component:NotFoundComponent,
-    title:'Angular NotFound Dashboard | Dakata'
+    title:'NotFound | Dakata'
   },
   {
     path:'**',
     component:NotFoundComponent,
-    title:'Angular NotFound Dashboard | Dakata'
+    title:'NotFound | Dakata'
   },
 ];
