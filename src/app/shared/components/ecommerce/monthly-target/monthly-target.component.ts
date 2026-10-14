@@ -52,13 +52,13 @@ export class MonthlyTargetComponent {
   };
   public fill: ApexFill = {
     type: 'solid',
-    colors: ['#465FFF'],
+    colors: ['#0C8075'],
   };
   public stroke: ApexStroke = {
     lineCap: 'round',
   };
   public labels: string[] = ['Progress'];
-  public colors: string[] = ['#465FFF'];
+  public colors: string[] = ['#0C8075'];
 
   isOpen = false;
 

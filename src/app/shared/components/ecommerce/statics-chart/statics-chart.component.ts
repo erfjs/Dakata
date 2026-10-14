@@ -62,7 +62,7 @@ export class StatisticsChartComponent implements AfterViewInit {
     toolbar: { show: false },
   };
 
-  public colors: string[] = ['#465FFF', '#9CB9FF'];
+  public colors: string[] = ['#0C8075', '#62C5BA'];
 
   public stroke: ApexStroke = {
     curve: 'straight',
