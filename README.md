@@ -2,6 +2,8 @@
 
 A logistics operations dashboard built with **Angular 22**, **TypeScript** and **Tailwind CSS v4**. It covers shipments, fleet, warehouses, invoicing and reporting, with a fully responsive layout, light/dark themes and first-class RTL (Persian) support.
 
+**Live demo:** https://dakata.erfjs.com
+
 ## Highlights
 
 - Standalone components with modern Angular control flow (`@if`, `@for`) and strict TypeScript
